@@ -5,3 +5,22 @@ Container 1170px
 Иконка компании на целеуказателе на карте
 
 В меню и футере иконки разного размера
+
+/* Text styles for "Преимущества       " */
+/* 
+Text styles for "Преимущества       "
+ */
+font-family: Roboto;
+font-size: 15px;
+line-height: 16px;
+font-weight: 400;
+color: #ffffff;
+/* Text styles for "Наша работа" */
+/* 
+Text styles for "Наша работа"
+ */
+color: #ec644b;
+/* Text styles for "       Цены       Схема работы       Отзывы        Контакты" */
+/* 
+Text styles for "       Цены       Схема работы       Отзывы        Контакты"
+ */

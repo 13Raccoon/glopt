@@ -3,7 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Roboto', 'Roboto Condensed' sans-serif;
+  font-family: 'Roboto', 'Roboto Condensed', sans-serif;
 }
 
 :root {
@@ -12,4 +12,84 @@
   --second-color: #25333C;
   --title-color: #2e2e2e;
   --text-color: #3a3a3a;
+}
+
+.main {
+  min-height: 680px;
+  background: url(../img/main_bg.png) center center/cover no-repeat;
+  padding-top: 23px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.main__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__header-menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.menu-item {
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  border-right: 1px dashed #fff;
+  padding-right: 14px;
+}
+
+.menu-item:hover {
+  color: var(--main-color-hover);
+  text-decoration: underline;
+}
+
+.item-end {
+  border: none;
+}
+
+.main__header-phone {
+  text-align: right;
+}
+
+.phone-text {
+  display: block;
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.phone {
+  font-family: Roboto;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.phone:hover {
+  color: var(--main-color-hover);
+  text-decoration: underline;
+}
+
+.main__header-button {
+  padding: 18px 23px;
+  background-color: var(--main-color);
+  border-radius: 70px;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.main__header-button:hover {
+  cursor: pointer;
 }
