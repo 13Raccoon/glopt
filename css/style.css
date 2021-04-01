@@ -409,3 +409,64 @@
 .tab__button:hover {
   cursor: pointer;
 }
+
+.price__consult {
+  font-family: Roboto;
+  font-size: 28px;
+  line-height: 23px;
+  font-weight: 400;
+  color: var(--text-color);
+  margin: 55px 0 20px;
+}
+
+legend {
+  height: 107px;
+  padding: 0 5px;
+}
+
+.form-img {
+  margin-bottom: 18px;
+}
+
+fieldset {
+  
+  width: 100%;
+  
+}
+
+.form_text {
+  display: flex;
+  justify-content: space-between;
+  width: 818px;
+  margin: 18px auto 30px;
+}
+
+.form-text {
+  border-radius: 50px;
+  padding: 10px 0 10px 30px;
+  font-size: 14px;
+  width: 270px;
+  
+}
+
+.form-button {
+  margin: 50px -24px 0;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 16px;
+  background-color: var(--main-color);
+  border-radius: 70px;
+  border: none;
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  
+}
+
+.form-button:hover {
+  cursor: pointer;
+}
