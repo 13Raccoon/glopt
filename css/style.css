@@ -470,3 +470,51 @@ fieldset {
 .form-button:hover {
   cursor: pointer;
 }
+
+/*-----------------------------manager-----------------------------*/
+
+.manager {
+  background: url(../img/manager_bg.png) center center/cover no-repeat;
+  min-height: 342px;
+  text-align: center;
+  padding: 57px 0 75px 0;
+}
+
+/*----------------------------circuit-----------------------------*/
+
+.circuit {
+  background-color: #f3f3f3;
+  min-height: 454px;
+  text-align: center;
+  padding: 57px 0 75px 0;
+}
+
+.circuit__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.circuit__items-2 {
+  width: 803px;
+  margin: 46px auto 0;
+}
+
+.circuit__item {
+  width: 257px;
+}
+
+.circuit__item-title {
+  margin: 18px auto 8px;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.circuit__item-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--text-color);
+}

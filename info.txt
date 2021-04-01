@@ -7,5 +7,20 @@ Container 1170px
 В меню и футере иконки разного размера
 
 
-
+/* Text styles for "Заявка'" */
+/* 
+Text styles for "Заявка'"
+ */
+font-family: Roboto;
+font-size: 16px;
+line-height: 20px;
+font-weight: 700;
+color: #ec644b;
+/* Text styles for "Вы оставляете заявку на нашем сайте или звоните нам" */
+/* 
+Text styles for "Вы оставляете заявку на нашем сайте или звоните нам"
+ */
+font-size: 14px;
+font-weight: 300;
+color: #3a3a3a;
 
