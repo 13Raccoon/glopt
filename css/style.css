@@ -295,3 +295,31 @@
   text-align: justify;
   text-align-last: center;
 }
+
+/*--------------------------China--------------------------*/
+
+.china {
+  background: url(../img/china_bg.png) center center/cover no-repeat;
+  min-height: 342px;
+  text-align: center;
+  padding: 57px 0 75px 0;
+}
+
+.china__title {
+  margin: 18px auto 22px;
+  font-family: Roboto;
+  font-size: 26px;
+  line-height: 23px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.china__subtitle {
+  width: 984px;
+  margin: 0 auto;
+  font-family: Roboto;
+  font-size: 19px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #ffffff;
+}
