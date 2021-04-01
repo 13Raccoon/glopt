@@ -6,21 +6,19 @@ Container 1170px
 
 В меню и футере иконки разного размера
 
-/* Text styles for "Преимущества       " */
+/* Text styles for "Офисы в Китае и России'" */
 /* 
-Text styles for "Преимущества       "
+Text styles for "Офисы в Китае и России'"
  */
 font-family: Roboto;
-font-size: 15px;
-line-height: 16px;
-font-weight: 400;
-color: #ffffff;
-/* Text styles for "Наша работа" */
-/* 
-Text styles for "Наша работа"
- */
+font-size: 16px;
+line-height: 22px;
+font-weight: 700;
 color: #ec644b;
-/* Text styles for "       Цены       Схема работы       Отзывы        Контакты" */
+/* Text styles for "Офисы расположены в Москве, столице России.  И в Гуанчжоу, мировом торговом мегаполисе Китая. " */
 /* 
-Text styles for "       Цены       Схема работы       Отзывы        Контакты"
+Text styles for "Офисы расположены в Москве, столице России.  И в Гуанчжоу, мировом торговом мегаполисе Китая. "
  */
+font-size: 14px;
+font-weight: 300;
+color: #3a3a3a;
