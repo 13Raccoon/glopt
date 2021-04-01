@@ -191,6 +191,8 @@
   text-align: center;
 }
 
+
+
 /*----------------------------------section pluse-------------------------------------*/
 
 .pluse {
@@ -322,4 +324,88 @@
   line-height: 27px;
   font-weight: 300;
   color: #ffffff;
+}
+
+/*--------------------------------Price---------------------------*/
+
+.price {
+  padding: 53px 0 58px;
+  text-align: center;
+}
+
+.price__subtitle {
+  width: 692px;
+}
+
+.price__tabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab {
+  text-align: center;
+  width: 267px;
+  border: 1px solid #EAEAEA;
+  padding: 1px;
+  
+}
+
+.tab__title {
+  background-color: rgb(37,51,60);
+  padding: 20px;
+  height: 60px;
+  margin-bottom: 14px;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.tab__text-days {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #2e2e2e;
+  margin: 14px 0 0;
+}
+
+.tab__text-price {
+  font-size: 28px;
+  line-height: 30px;
+  text-transform: none;
+  color: #ec644b;
+  margin-bottom: 19px;
+}
+
+.tab__text-desc {
+  width: 234px;
+  margin: 0 auto 25px;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #2e2e2e;
+}
+
+.tab__button {
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 16px;
+  background-color: #ec644b;
+  border-radius: 70px;
+  border: none;
+  width: 160px;
+  height: 45px;
+  text-align: center;
+  margin: 0 auto 26px;
+}
+.tab__button:hover {
+  cursor: pointer;
 }
