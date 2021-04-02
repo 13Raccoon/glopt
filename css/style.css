@@ -94,6 +94,10 @@
     cursor: pointer;
   }
 
+  .main__header-button:visited, .main__header-button:focus, .main__header-button:active, .main__header-button:hover {
+    outline: none !important;
+  }
+
 /*-----------------------------------main__title--------------------------------------*/
 .main__title {
   text-align: center;
@@ -189,6 +193,14 @@
 
 .main__button {
   text-align: center;
+}
+
+.main__button button:hover {
+  cursor: pointer;
+}
+
+.main__button button:visited, .main__button button:focus, .main__button button:active, .main__button button:hover {
+  outline: none !important;
 }
 
 
@@ -471,6 +483,10 @@ fieldset {
   cursor: pointer;
 }
 
+.form-button:visited, .form-button:focus, .form-button:active, .form-button:hover {
+  outline: none !important;
+}
+
 /*-----------------------------manager-----------------------------*/
 
 .manager {
@@ -492,6 +508,7 @@ fieldset {
 .circuit__items {
   display: flex;
   justify-content: space-between;
+  width: 1126px;
 }
 
 .circuit__items-2 {
@@ -504,7 +521,7 @@ fieldset {
 }
 
 .circuit__item-title {
-  margin: 18px auto 8px;
+  margin: 5px auto 5px;
   font-family: Roboto;
   font-size: 16px;
   line-height: 20px;
@@ -518,3 +535,73 @@ fieldset {
   font-weight: 300;
   color: var(--text-color);
 }
+
+.circuit__item-img {
+  height: 62px;
+}
+
+/*---------------------------comment--------------------------*/
+
+.comment {
+  text-align: center;
+  padding: 57px 0 75px 0;
+}
+
+.slider {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.slider-title {
+  margin: 19px auto 5px;
+}
+
+.slider-text {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.slider__items {
+  width: 600px;
+  z-index: 0;
+}
+
+.slick-prev, .slick-next {
+  background-color: #fff;
+  border: none;
+  position: absolute;
+}
+
+.slick-prev {
+  left: 40%;
+  top: 15%;
+  z-index: 10;
+}
+
+.slick-prev:visited, .slick-prev:focus, .slick-prev:active, .slick-prev:hover{
+  outline:0 none !important;
+}
+
+.slick-next {
+  right: 40%;
+  top: 15%;
+  z-index: 10;
+}
+
+.slick-next:visited, .slick-next:focus, .slick-next:active, .slick-next:hover{
+  outline:0 none !important;
+}
+
+.slider-img {
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.slider-img img {
+  margin: 0 auto;
+   
+}
+
+
+
