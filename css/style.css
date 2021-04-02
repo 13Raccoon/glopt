@@ -701,6 +701,70 @@ fieldset {
   outline: none !important;
 }
 
+/*------------------------------------ыусешщт ьфз-------------------------------*/
+
+.map {
+  height: 500px;
+}
+
+/*--------------------------------footer--------------------------------------*/
+
+footer {
+  background-color: var(--second-color);
+  min-height: 201px;
+  padding: 38px 0;
+}
+
+.footer__text {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.footer__line {
+  width: 100%;
+  margin: 26px 0 30px;
+}
+
+.footer__end, .footer_end-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__end-left {
+  opacity: 0.6;
+  font-family: Roboto;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.right-text {
+  opacity: 0.6;
+  font-family: Roboto;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.footer_end-center a {
+  font-family: Roboto;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #ffffff;
+  
+}
+
+.footer_end-center a:hover {
+  color: var(--main-color-hover);
+  
+}
 
 
 

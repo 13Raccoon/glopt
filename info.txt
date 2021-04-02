@@ -7,20 +7,9 @@ Container 1170px
 В меню и футере иконки разного размера
 
 
-/* Text styles for "Заявка'" */
-/* 
-Text styles for "Заявка'"
- */
-font-family: Roboto;
-font-size: 16px;
-line-height: 20px;
-font-weight: 700;
-color: #ec644b;
-/* Text styles for "Вы оставляете заявку на нашем сайте или звоните нам" */
-/* 
-Text styles for "Вы оставляете заявку на нашем сайте или звоните нам"
- */
-font-size: 14px;
-font-weight: 300;
-color: #3a3a3a;
+г. Москва
+ул. Садовническая, дом 5, офис 4-6
+700 от м. Новокузнецкая
+Тел: +7 (926) 423 01 00
+info@glopt.ru
 
